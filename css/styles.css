@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600&display=swap');
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+body {
+	font-family: 'Outfit', sans-serif;
+	font-size: 18px;
+	background-color: hsl(217, 54%, 11%);
+}
+.container {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	background-color: hsl(216, 50%, 16%);
+	width: 20rem;
+	height: auto;
+	margin: auto;
+	margin-top: 5rem;
+	padding: 1rem;
+	border-radius: 10px;
+	box-shadow: 1px 2px 7px 2px hsl(217, 54%, 11%);
+}
+.nft-card_equilibrium_image {
+	width: 100%;
+	border-radius: 5px;
+	margin-bottom: 1.5rem;
+}
+.nft-card_headline {
+	font-weight: 600;
+	font-size: 1.3rem;
+	color: hsl(0, 0%, 100%);
+	margin-bottom: 0.5rem;
+}
+.nft-card_paragraph {
+	font-size: 1rem;
+	margin-bottom: 1.5rem;
+	color: hsl(215, 51%, 70%);
+}
+.nft-card_pricing_container {
+	display: flex;
+	justify-content: space-between;
+	margin-bottom: 1.5rem;
+}
+.nft-card_price {
+	color: hsl(178, 100%, 50%);
+	display: flex;
+	align-items: center;
+	gap: 0.51rem;
+	font-size: 0.81rem;
+}
+.nft-card_price_days {
+	color: hsl(215, 51%, 70%);
+	display: flex;
+	align-items: center;
+	gap: 0.51rem;
+	font-size: 0.81rem;
+}
+hr {
+	border: 1px solid;
+	color: hsl(215, 32%, 27%);
+	margin-bottom: 1rem;
+}
+.nft-card_profile {
+	display: flex;
+	align-items: center;
+	gap: 0.8rem;
+	margin-bottom: 0.1rem;
+}
+.nft-card_avater {
+	width: 10%;
+	border: 1px solid hsl(0, 0%, 100%);
+	border-radius: 50%;
+}
+.nft-card_avatername {
+	color: hsl(215, 51%, 70%);
+	font-size: 0.9rem;
+}
+.nft-card_avatername span {
+	color: hsl(0, 0%, 100%);
+}
